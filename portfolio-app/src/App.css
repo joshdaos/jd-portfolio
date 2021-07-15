@@ -80,3 +80,7 @@ u {
     color: #d9c76d;
     text-decoration-color: #fff;
 }
+
+span.Typewriter__wrapper {
+    font-size: 40px
+}
