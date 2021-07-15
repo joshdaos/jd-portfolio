@@ -3,11 +3,12 @@ import React from 'react'
 function Home() {
     return (
         <div>
-            <h1>Home</h1>
+            <h1>Josh Daos</h1>
             <p>
-                A 23-year-old software engineer, bay area based.<br></br>
+                A 23-year-old <u>Software Engineer</u>, Bay Area based.<br></br>
                 Creator. Designer. Developer.
             </p>
+            
         </div>
     )
 }

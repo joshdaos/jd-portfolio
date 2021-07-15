@@ -11,7 +11,6 @@ function App() {
     <body>
     <Router>
     <div className="app__container">
-      <h1>Portfolio Site</h1>
 
       <Switch>
         <Route path="/about" component={About} />
