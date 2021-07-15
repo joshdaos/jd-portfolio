@@ -75,3 +75,8 @@ a:-webkit-any-link:hover {
 .home__p-two {
     color: #828282;
 }
+
+u {
+    color: #d9c76d;
+    text-decoration-color: #fff;
+}
