@@ -42,16 +42,16 @@ function App() {
 
       <ul className="media__links">
         <li>
-        <i id="media__links-li" className="fab fa-linkedin"></i>
+        <a href="https://github.com/joshdaos"><i id="media__links-li" className="fab fa-github"></i></a>
         </li>
         <li>
-        <i id="media__links-li" className="fab fa-instagram"></i>
+        <a href="https://www.linkedin.com/in/joshua-daos/"><i id="media__links-li" className="fab fa-linkedin"></i></a>
         </li>
         <li>
-        <i id="media__links-li" className="fab fa-twitter"></i>
+        <a href="https://www.instagram.com/joshdaos/"><i id="media__links-li" className="fab fa-instagram"></i></a>
         </li>
         <li>
-        <i id="media__links-li" className="fas fa-user-circle"></i>
+        <a href="https://twitter.com/joshdaos"><i id="media__links-li" className="fab fa-twitter"></i></a>
         </li>
       </ul>
 
