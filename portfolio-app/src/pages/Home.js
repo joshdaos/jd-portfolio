@@ -10,7 +10,6 @@ function Home() {
             <p className="home__p-two">
                 Creator. Designer. Developer.
             </p>
-            
         </div>
     )
 }

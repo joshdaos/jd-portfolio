@@ -2,6 +2,7 @@
 
 body {
     background-color: #353535;
+    /* background: linear-gradient(to right, rgb(121, 120, 120) , rgb(69, 69, 69));  */
     color: #fff;
     font-family: 'Open Sans', sans-serif;
 }
@@ -15,6 +16,7 @@ body {
     font-size: 20px;
 }
 
+/************ Navbar ************/
 nav {
     box-sizing: border-box;
     
@@ -24,18 +26,27 @@ nav {
     list-style: none;
     display: inline;
     margin-left: 10px; 
+    font-size: 18px;
 }
 
 a:-webkit-any-link {
     text-decoration: none;
-    color: #fff;
-    
+    color: #fff; 
+}
+
+a:-webkit-any-link:hover {
+    text-decoration-color: #ffea82;
+    /* color: #d9c76d; */
 }
 
 .nav__links-li:hover {
     text-decoration: underline;
+    text-decoration-color: #ffea82;
 }
+/*********************************/
 
+
+/************ Social Media ************/
 .media__links {
     list-style: none;
     display: flex;
@@ -54,6 +65,12 @@ a:-webkit-any-link {
     width: 40px;
     height: 40px;
 }
+
+#media__links-li:hover {
+    background-color: #d9c76d;
+}
+/*********************************/
+
 
 .home__p-two {
     color: #828282;
