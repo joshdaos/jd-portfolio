@@ -7,5 +7,5 @@
 > About -
 > Resume -
 > Portfolio -
-> Contact -
+> Contact 
 
