@@ -142,3 +142,8 @@ span.Typewriter__cursor {
 
 
 /*************    *************/
+
+.skills__container {
+    display: flex;
+    justify-content: space-around;
+}
