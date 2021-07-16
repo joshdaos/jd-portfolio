@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 
+
 body {
     background-color: #353535;
     /* background: linear-gradient(to right, rgb(121, 120, 120) , rgb(69, 69, 69));  */
@@ -93,3 +94,51 @@ span.Typewriter__cursor {
 .Typewriter__cursor {
     color: #d9c76d;
 }
+
+/* .circle__one {
+    border-color:#d9c76d;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0);
+    display: inline-block;
+    top:0;
+    left:0;
+}
+
+.circle__two {
+    border-color:#d9c76d;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0);
+    display: inline-block;
+    top:0;
+    left:0;
+}
+
+.circle__three {
+    border-color:#d9c76d;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 50%;
+    height: 90px;
+    width: 90px;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0);
+    display: inline-block;
+    top:0;
+    left:0;
+} */
+
+
+
+
+
+/*************    *************/

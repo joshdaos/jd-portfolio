@@ -3,7 +3,7 @@ import Typewriter from 'typewriter-effect';
 
 function Home() {
     return (
-        <div>
+        <div className="home__container">
             <Typewriter className="typewriter__content"
             onInit={(typewriter) => {
                 typewriter.typeString('Creator')
@@ -33,6 +33,13 @@ function Home() {
             <p className="home__p-two">
                 Creator. Designer. Developer.
             </p>
+
+            <div className="circles">
+                <span className="circle__one"></span>
+                <span className="circle__two"></span>
+                <span className="circle__three"></span>
+            </div>
+
         </div>
     )
 }
