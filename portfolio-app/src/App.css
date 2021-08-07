@@ -143,14 +143,13 @@ span.Typewriter__cursor {
 
 /*************  About  *************/
 
-.bio__container {
+.about__container {
     background-color:#2d2d2d;
     padding:20px;
-    
+    border: solid 1.5px white;
 }
 
 .skills__container {
-    background-color:#2d2d2d;
     display: flex;
     justify-content: space-around;
 }
