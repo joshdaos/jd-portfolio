@@ -10,17 +10,8 @@ function App() {
   return (
     <body>
     <Router>
-    <div className="app__container">
 
-      <Switch>
-        <Route path="/about" component={About} />
-        <Route path="/resume" component={Resume} />
-        <Route path="/portfolio" component={Portfolio} />
-        <Route path="/contact" component={Contact} />
-        <Route path="/" component={Home} />
-      </Switch>
-
-      <nav>
+    <nav>
         <ul>
           <li className="nav__links-li">
             <Link to="/">Home</Link>
@@ -39,6 +30,36 @@ function App() {
           </li>
         </ul>
       </nav>
+
+    <div className="app__container">
+
+      <Switch>
+        <Route path="/about" component={About} />
+        <Route path="/resume" component={Resume} />
+        <Route path="/portfolio" component={Portfolio} />
+        <Route path="/contact" component={Contact} />
+        <Route path="/" component={Home} />
+      </Switch>
+
+      {/* <nav>
+        <ul>
+          <li className="nav__links-li">
+            <Link to="/">Home</Link>
+          </li>
+          <li className="nav__links-li">
+            <Link to="/about">About</Link>
+          </li>
+          <li className="nav__links-li">
+            <Link to="/resume">Resume</Link>
+          </li>
+          <li className="nav__links-li">
+            <Link to="/portfolio">Portfolio</Link>
+          </li>
+          <li className="nav__links-li">
+            <Link to="/contact">Contact</Link>
+          </li>
+        </ul>
+      </nav> */}
 
       <ul className="media__links">
         <li>
