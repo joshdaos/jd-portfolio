@@ -28,7 +28,7 @@ function Home() {
 
 
             <p className="home__p-one">
-                A 23-year-old <u>Software Engineer</u>, Bay Area based.<br></br>
+                An aspiring <u>Software Engineer</u>, based in the Bay Area.<br></br>
             </p>
             <p className="home__p-two">
                 Creator. Designer. Developer.

@@ -11,7 +11,7 @@ function App() {
     <body>
     <Router>
 
-    <nav>
+    <nav className="navbar">
         <ul>
           <li className="nav__links-li">
             <Link to="/">Home</Link>

@@ -23,6 +23,11 @@ nav {
     
 }
 
+.navbar {
+    border-bottom: solid 2px #fff;
+    width: 50%;
+}
+
 .nav__links-li {
     list-style: none;
     display: inline;
