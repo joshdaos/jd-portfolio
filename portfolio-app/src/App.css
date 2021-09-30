@@ -23,7 +23,7 @@ nav {
     
 }
 
-.navbar {
+#navbar {
     border-bottom: solid 2px #fff;
     width: 50%;
 }

@@ -4,7 +4,7 @@ import Typewriter from 'typewriter-effect';
 function Home() {
     return (
         <div className="home__container">
-            <Typewriter className="typewriter__content"
+            <Typewriter id="typewriter__content" 
             onInit={(typewriter) => {
                 typewriter.typeString('Creator')
                 .callFunction(() => {
@@ -27,10 +27,10 @@ function Home() {
             />
 
 
-            <p className="home__p-one">
+            <p id="home__p-one" className="animate__animated animate__backInRight">
                 An aspiring <u>Software Engineer</u>, based in the Bay Area.<br></br>
             </p>
-            <p className="home__p-two">
+            <p id="home__p-two" className="animate__animated animate__backInUp">
                 Creator. Designer. Developer.
             </p>
 
