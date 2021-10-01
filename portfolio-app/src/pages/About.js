@@ -5,7 +5,7 @@ import Skills from '../components/About/Skills'
 function About() {
     return (
         <div className="about__container">
-            <h2>Learn more About Me</h2> 
+            <h3>Learn more About Me</h3> 
             <Bio />
             <Skills />
 

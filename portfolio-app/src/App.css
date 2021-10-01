@@ -78,7 +78,7 @@ a:-webkit-any-link:hover {
 /*********************************/
 
 
-.home__p-two {
+#home__p-two {
     color: #828282;
 }
 
@@ -143,9 +143,6 @@ span.Typewriter__cursor {
 } */
 
 
-
-
-
 /*************  About  *************/
 
 .about__container {
@@ -159,3 +156,6 @@ span.Typewriter__cursor {
     justify-content: space-around;
 }
 
+.bio__content {
+    font-size: 20px;
+}
